@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Blogifier.Directs</AssemblyName>
+    <RootNamespace>Blogifier.Directs</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Direct.V3\Direct.V3\Direct.csproj" />
+  </ItemGroup>
+
+</Project>

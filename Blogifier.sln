@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4E0164ED-2249-4973-B3FD-180172EBCD0A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		azure-pipelines.yml = azure-pipelines.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{39614650-0D6E-4502-B87D-184366060F59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{6015AFDB-988C-4A2A-8B86-EB0895E0732E}"
+	ProjectSection(SolutionItems) = preProject
+		docs\AppSettings.md = docs\AppSettings.md
+		docs\Build.md = docs\Build.md
+		docs\Disqus.md = docs\Disqus.md
+		docs\Import.md = docs\Import.md
+		docs\Localization.md = docs\Localization.md
+		docs\MySQL.md = docs\MySQL.md
+		docs\Newsletter.md = docs\Newsletter.md
+		docs\Notifications.md = docs\Notifications.md
+		docs\PostgreSQL.md = docs\PostgreSQL.md
+		docs\Security.md = docs\Security.md
+		docs\SendGrid.md = docs\SendGrid.md
+		docs\SocialAccounts.md = docs\SocialAccounts.md
+		docs\SqlServer.md = docs\SqlServer.md
+		docs\Themes.md = docs\Themes.md
+		docs\Troubleshooting.md = docs\Troubleshooting.md
+		docs\VideoAudio.md = docs\VideoAudio.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{BE5E262F-B96C-49BF-BAE0-E00CE3B4F78B}"
+	ProjectSection(SolutionItems) = preProject
+		build\build.cake = build\build.cake
+		build\build.ps1 = build\build.ps1
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blogifier", "src\Blogifier\Blogifier.csproj", "{0DC52C2B-3803-4BB3-A5A2-6371E94700D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blogifier.Widgets", "src\Blogifier.Widgets\Blogifier.Widgets.csproj", "{19384C5F-D421-4A41-AD66-8812B48F48AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Direct", "..\Direct.V3\Direct.V3\Direct.csproj", "{9ACA7542-0518-48B7-ABDA-71C4136E1173}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blogifier.Test", "Blogifier.Test\Blogifier.Test.csproj", "{9CB06834-20B1-476F-86DD-B303F0DCE402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blogifier.Direct", "Blogifier.Direct\Blogifier.Direct.csproj", "{FE814785-67B8-44BB-82FC-B4E92F3487FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DC52C2B-3803-4BB3-A5A2-6371E94700D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DC52C2B-3803-4BB3-A5A2-6371E94700D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DC52C2B-3803-4BB3-A5A2-6371E94700D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC52C2B-3803-4BB3-A5A2-6371E94700D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19384C5F-D421-4A41-AD66-8812B48F48AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19384C5F-D421-4A41-AD66-8812B48F48AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19384C5F-D421-4A41-AD66-8812B48F48AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19384C5F-D421-4A41-AD66-8812B48F48AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ACA7542-0518-48B7-ABDA-71C4136E1173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ACA7542-0518-48B7-ABDA-71C4136E1173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ACA7542-0518-48B7-ABDA-71C4136E1173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ACA7542-0518-48B7-ABDA-71C4136E1173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CB06834-20B1-476F-86DD-B303F0DCE402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB06834-20B1-476F-86DD-B303F0DCE402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CB06834-20B1-476F-86DD-B303F0DCE402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CB06834-20B1-476F-86DD-B303F0DCE402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE814785-67B8-44BB-82FC-B4E92F3487FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE814785-67B8-44BB-82FC-B4E92F3487FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE814785-67B8-44BB-82FC-B4E92F3487FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE814785-67B8-44BB-82FC-B4E92F3487FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DC52C2B-3803-4BB3-A5A2-6371E94700D7} = {39614650-0D6E-4502-B87D-184366060F59}
+		{19384C5F-D421-4A41-AD66-8812B48F48AC} = {39614650-0D6E-4502-B87D-184366060F59}
+		{9ACA7542-0518-48B7-ABDA-71C4136E1173} = {39614650-0D6E-4502-B87D-184366060F59}
+		{9CB06834-20B1-476F-86DD-B303F0DCE402} = {39614650-0D6E-4502-B87D-184366060F59}
+		{FE814785-67B8-44BB-82FC-B4E92F3487FD} = {39614650-0D6E-4502-B87D-184366060F59}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D601BCCC-A1D9-415B-94B5-B3C0EF4AAF0B}
+	EndGlobalSection
+EndGlobal
